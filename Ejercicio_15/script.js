@@ -1,8 +1,8 @@
 function dqs(sel){
-    document.querySelector(sel)
+    return document.querySelector(sel)
 }
 
-dqs("#botMostrar").addEventListener("click", function(){
+dqs("#botoMostrar").addEventListener("click", function(){
     dqs("#panell").classList.remove("amagat")
 })
 
