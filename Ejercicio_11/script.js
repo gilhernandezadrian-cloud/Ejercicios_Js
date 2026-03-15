@@ -1,7 +1,7 @@
 // document.querySelector("#boton")
 
-function dqs(botonf){
-    return document.querySelector(botonf)
+function dqs(sel){
+    return document.querySelector(sel)
 }
 
 const boton=dqs("#boton")
