@@ -13,7 +13,6 @@ function avisarf(){
     if(email.value.trim() === ""){
         email.classList.add("error")
     }else{
-
         email.classList.remove("error")
     }
 }

@@ -6,6 +6,7 @@ const estat = dqs("#estat")
 const check = dqs("#check")
 
 // dqs("#estat").textContent
+
 check.addEventListener("change", function(){
     if(check.checked){
         estat.textContent="Actiu"
