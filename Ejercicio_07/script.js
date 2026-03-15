@@ -1,3 +1,4 @@
+
 function dqs(selection){
     return document.querySelector(selection)
 }
